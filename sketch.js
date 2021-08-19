@@ -11,10 +11,10 @@ function createArray(cols, rows) {
 let grid;
 let cols;
 let rows;
-let resolution = 10; //size of cells
+let resolution = 5; //size of cells
 
 function setup() {
-  createCanvas(1000, 600);
+  createCanvas(1000, 500);
   cols = width / resolution;
   rows = height / resolution;
 
