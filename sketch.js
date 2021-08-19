@@ -51,7 +51,6 @@ function draw() {
         next[i][j] = state;
       } else {
         //count LIVE neighbors
-        let sum = 0;
         let neighbors = countNeighbors(grid, i, j);
         if (state == 0 && neighbors == 3) {
           next[i][j] = 1;
